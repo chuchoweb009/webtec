@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h1{
+            text-align: center;
+            background: orangered;
+            color:blue;
+            font-size: 35px;
+            font-weight: bold;
+        }
+        #uno{
+            text-align: center;
+            background: orangered;
+            color:blue;
+            font-size: 35px;
+            font-weight: bold;
+        }
+        header{
+            text-align: justify;
+            font-size:20px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+        }
+        .galeria{
+            display:grid;
+            grid-template-columns: repeat(4,1fr);
+        }
+        .galeria img{
+            height:180px;
+            width:180px;
+            margin:8px;
+            grap:10px;
+        }
+        .web{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .web img{
+            grap:10px;
+            margin: 5px 10px;
+            height:350px;
+            width:420px;
+        }
+        footer{
+            text-align: justify;
+            font-size: 20px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+        }
+        .logo{
+            width:120px;
+            margin-top: 5px;
+            height:120%;
+        }
+        nav{
+            background: aqua;
+            height: 80px;
+            margin: 2px;
+        }
+        nav ul{
+            display:flex;
+            justify-content: space-around;
+            text-align: center;
+            list-style: none;
+        }
+        nav ul li{
+            font-size: 18px;
+            margin:5px 8px;
+            font-weight: bolder;
+            font-family: monospace;
+        }
+        nav ul li a{
+            color:black;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav ul li a:hover{
+            background: chartreuse;
+            border-radius: 10%;
+            transition: .5s;
+            cursor:pointer;
+        }
+        @media(max-width:700px){
+            /*menu*/
+            nav{
+                background: aqua;
+            }
+            nav ul{
+                display:flex;
+                justify-content: space-around;
+                list-style: none;
+            }
+            nav ul li{
+                font-size: 14px;
+                font-weight: bolder;
+                font-family: monospace;
+            }
+            /*Imagenes*/
+            .galeria{
+                display:grid;
+                grid-template-columns: repeat(2,1fr);
+            }
+            .galeria img{
+                height:150px;
+                width:180px;
+                margin-left:25px;
+                grap:10px;
+            }
+            .web{
+                display:grid;
+                grid-template-columns: repeat(2,1fr);
+            }
+            .web img{
+                height:150px;
+                width:180px;
+                margin-left:25px;
+                grap:10px;
+            }
+        }
+    </style>
+    <nav>
+        <ul>
+            <img src="https://sites.google.com/a/correo.unimet.edu.ve/03marinmarreromazzaeacfgtce03/_/rsrc/1478268000885/config/customLogo.gif?revision=1" class="logo">
+            <li><a href="#uno">Importancia de la tecnología de la educacion</a></li>
+            <li><a href="#dos">Cuáles son los pilares de la tecnología educativa?</a></li>
+            <li><a href="#tres">Conclusion</a></li>
+        </ul>
+    </nav>
+    <br>
+    <h1>Tecnologia de la educacion</h1>
+    <header>
+        <br>
+        <h2 id="uno"> EL papel importante de la tecnologia en la educacion</h2>
+            <p>
+                Cuando los problemas educativos encuentran solución en el uso de la tecnología de la información, es decir, en el uso de computadoras y más equipos de telecomunicación de almacenamiento, transmisión y manipulación de datos, hablamos de la tecnología en la educación.
+    
+    En otras palabras, comprendemos que la tecnología educativa se trata de la utilización de dispositivos tecnológicos para propósitos educativos.
+    
+    Actualmente, el personal de centros educativos tiene la posibilidad de adquirir internet, computadoras, pizarrones digitales, teléfonos móviles y tabletas para compartir su conocimiento u organizar clases y tareas.
+    
+    Dichas facilidades han logrado adaptar los métodos educativos a la era digital, donde existe un mayor número de recursos de enseñanza y aprendizaje tanto para maestros como para alumnos.
+    
+    El alumnado puede acceder a mucha más información a través del implemento de las nuevas tecnologías que, por cierto, abren también nuevos espacios lúdicos y de expresión, tales como juegos y blogs.
+            </p>
+            <br>
+            <div class="galeria">
+                <div>
+                    <img src="https://mine-class.com/wp-content/uploads/2016/08/C%C3%B3mo-La-Tecnolog%C3%ADa-Ha-Transformado-La-Educaci%C3%B3n.png">
+                </div>
+                <div>
+                    <img src="https://lh3.googleusercontent.com/proxy/OCD3VfgkMMhcstUNvzSTHSa2C3LOu2UVagYXKhm12Yggl7Q9KKibfbBKjTPHuh4_ll3RjOvGZ95IRp2_wEmpBcFyvizVuscyA0G-c7x3AUjQ8hB-JiNMqnAcd9GhVxPGgTww7yr7MygwCNEt">
+                </div>
+                <div>
+                    <img src=" https://images.theconversation.com/files/273635/original/file-20190509-183109-1edzl82.jpg?ixlib=rb-1.1.0&rect=0%2C0%2C5357%2C3566&q=45&auto=format&w=496&fit=clip">
+                </div>
+                <div>
+                    <img src="https://www.magisnet.com/wp-content/uploads/2019/03/19-03-27tecnologia.jpg" alt="">
+                </div>
+            </div>
+            <br>
+            <h1 id="dos">¿Cuáles son los pilares de la tecnología educativa?</h1>
+            <br>
+            <p>
+                 Hoy en dia los modelos educativos han sido creados bajo la consciencia de que el futuro de nuestra sociedad depende de tres áreas tecnológicas, a saber:<em><b>programación, robótica e impresión 3D.</b></em>
+            </p>
+            <br>
+            <h2>Programación</h2>
+            <p>
+                La programación es unos de los va más allá de la preparación del alumnado para un campo laboral tecnológico en distintas area que se usa Actualmente en los jovenes del futuro. Los alumnos resuelven procesos de autocorrección, ya que aprenden a localizar errores en problemas complejos.
+
+                La programación trabaja fomentando el aprendizaje de lógica, la creatividad, encuentro de soluciones y emprendimiento.
+            </p>
+            <div class="web">
+                <div>
+                    <img src="https://tec.mx/sites/default/files/styles/header_full/public/2018-11/Programer.jpg?itok=c5V9xXKc">
+                </div>
+                <div>
+                    <img src="https://edteam-media.s3.amazonaws.com/courses/big/ca2f7ab7-5458-48d7-aab3-0eaa7d20abc4.png" alt="">
+                </div>
+            </div>
+            <br>
+            <h2>Robótica</h2>
+            <p>
+                La robótica es unas de las materia que permite programar,desarolla y crear un dispositivo o robot, enseñándole un conjunto de instruccioneso de cogidos para que se ejecute de la manera autónoma.
+                <br>
+                El aprendizaje de esta materia da solución ,el desarrollo de algoritmo para la llegar a resolver la demanda creciente de ciencia e ingeniería en futuros empleos ya que, gracias a los avances de la era digital, se necesitarán personas capaces de programar dichos dispositivos.
+                <br>
+                La programación de un robot permite a los estudiantes ver de manera física los errores de programación y sus límites, además de aprender a manejar un lenguaje preciso.
+            </p>
+            <div class="web">
+                <div>
+                    <img src="https://www.igniteseriousplay.com/uploads/cache/fb_og_image/uploads/media/5b5595f32106d/slide-robotica-para-que.jpg" alt="">
+                </div>
+                <div>
+                    <img src="https://www.computerworld.es/archivos/201707/robots.jpg" alt="">
+                </div>
+            </div>
+            <br>
+            <h2>Impresión 3D</h2>
+            <p>
+                La impresión 3D está adquiriendo gran importancia para el diseño de maquetas o prototipos en diversos ámbitos de nuestra vida contidiana.
+
+                Medicina, ingeniería, industria textil y más utilizan esta tecnología con éxito, también pueden utilizarse para geografía y arte.
+
+                Gracias a la impresión 3D los estudiantes aprenden sobre nuevas tecnologías y su uso, pero también les ayuda a comprender teorías complejas puesto que logra ejemplificarlas.
+            </p>
+            <div class="web">
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdpTBmpnvdT__Ij018c4u3h4AJlO4rdIWX_A&usqp=CAU" alt="">
+                </div>
+                <div>
+                    <img src="https://transferencia.tec.mx/wp-content/uploads/2019/06/Impresi%C3%B3n-3D-2-1068x712.jpeg" alt="">
+                </div>
+            </div>
+    </header>
+    <br>
+    <footer>
+        <h1 id="tres">Conclusion</h1>
+        <p>
+            Como conclusion la tecnología educativa constituye una
+disciplina encargada del estudio de los medios, materiales, portales web y plataformas tecnológicas al servicio
+de los procesos de aprendizaje; en cuyo campo se encuentran los recursos aplicados con fines formativos e
+instruccionales, diseñados originalmente como respuesta a las necesidades e inquietudes de los usuarios. Estos
+autores coinciden en el estudio del uso de las TIC’S en el proceso de enseñanza y aprendizaje (tanto en contextos formales como no formales), así como el impacto de las tecnologías en el mundo educativo en general a
+través de las tecnologías educativas. Alegan que todo radica en un enfoque sociosistémico, donde ésta siempre
+analiza procesos mediados con y desde una perspectiva holística e integradora que se encuentra si grandes pilares que son la <em>Programación,Robótica e Impresión 3D que son usado en la tecnología de educación hoy en dia.</em>.
+        </p>
+    </footer>
+</body>
+</html>
